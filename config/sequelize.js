@@ -9,7 +9,7 @@ const sequelize = new Sequelize
     process.env.DATABASE_PASSWORD,
     {
         host: process.env.DATABASE_HOST,
-        port: process.env.DATABASE_Port,
+        port: process.env.DATABASE_PORT,
         dialect: 'mysql' // 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' 
     }
 );
